@@ -9,7 +9,7 @@ class App
         let versienummer = 1.0; // double
         let versiedatum = new Date(); // Date
         let auteur = "Pieter"; // string
-        let copyright = "© 2023 Pieter"; // string
+        let copyright = "Pieter 2023"; // string
         let distributeur = "Pieter"; // string
         let darkmode = true; // boolean
         
