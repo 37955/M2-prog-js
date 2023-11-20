@@ -5,6 +5,8 @@ class App
         console.log("Hello world!");
         //code gaat hier!
 
+        this.greeting = "starting up"
+
         let appNaam = "Demo"; // string
         let versienummer = 1.0; // double
         let versiedatum = new Date(); // Date
@@ -25,3 +27,7 @@ class App
 
 let app = new App();
 app.runApplication();
+
+console.log(app.greeting);
+console.log("appNaam: " + app.appNaam);
+console.log("versienummer: " + app.versienummer);
