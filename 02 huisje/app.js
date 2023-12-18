@@ -10,11 +10,11 @@ class App
         g.beginPath()
         g.fillStyle = "red"
 
-        g.moveTo(300,100);
-        g.lineTo(200,300);
-        g.lineTo(600,400);
-        g.lineTo(700,200);
-        g.lineTo(300,100);
+        g.moveTo(30,10);
+        g.lineTo(20,30);
+        g.lineTo(60,40);
+        g.lineTo(70,20);
+        g.lineTo(30,10);
         g.closePath();
         g.stroke();
         g.fill();
@@ -22,10 +22,10 @@ class App
         g.beginPath()
         g.fillStyle = "grey"
 
-        g.moveTo(700,200);
-        g.lineTo(600,400);
-        g.lineTo(800,300);
-        g.lineTo(700,200);
+        g.moveTo(70,20);
+        g.lineTo(60,40);
+        g.lineTo(80,30);
+        g.lineTo(70,20);
         g.closePath();
         g.stroke();
         g.fill();
@@ -33,11 +33,11 @@ class App
         g.beginPath()
         g.fillStyle = "grey"
 
-        g.moveTo(600,400);
-        g.lineTo(600,600);
-        g.lineTo(800,500);
-        g.lineTo(800,300);
-        g.lineTo(600,400);
+        g.moveTo(60,40);
+        g.lineTo(60,60);
+        g.lineTo(80,50);
+        g.lineTo(80,30);
+        g.lineTo(60,40);
         g.closePath();
         g.stroke();
         g.fill();
@@ -45,11 +45,11 @@ class App
         g.beginPath()
         g.fillStyle = "lightgrey"
 
-        g.moveTo(200,300);
-        g.lineTo(200,500);
-        g.lineTo(600,600);
-        g.lineTo(600,400);
-        g.lineTo(200,300);
+        g.moveTo(20,30);
+        g.lineTo(20,50);
+        g.lineTo(60,60);
+        g.lineTo(60,40);
+        g.lineTo(20,30);
         g.closePath();
         g.stroke();
         g.fill();
@@ -57,11 +57,11 @@ class App
         g.beginPath()
         g.fillStyle = "lightblue"
 
-        g.moveTo(650,420);
-        g.lineTo(650,530);
-        g.lineTo(760,475);
-        g.lineTo(760,370);
-        g.lineTo(650,420);
+        g.moveTo(65,42);
+        g.lineTo(65,53);
+        g.lineTo(76,47);
+        g.lineTo(76,37);
+        g.lineTo(65,42);
         g.closePath();
         g.stroke();
         g.fill();
