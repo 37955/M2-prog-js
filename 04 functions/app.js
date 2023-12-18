@@ -3,6 +3,10 @@ class App
     runApplication()
     {
         console.log("Hello world!");
+        this.marioFunction();
+        this.bwahahaFunction();
+        this.addTwoNumbers();
+        this.randomFunction();
     }
 
     newClassFunction()
@@ -15,6 +19,25 @@ class App
         console.log("kom maar met je argument");
         console.log("hier:");
         console.log(aArgument);
+    }
+
+    marioFunction()
+    {
+        console.log("MARIO!!")
+    }
+
+    
+    bwahahaFunction() {
+        return "BWAHAHA!!!";
+    }
+
+    addTwoNumbers(num1, num2) {
+        let sum = num1 + num2;
+        return sum;
+    }
+
+    randomFunction() {
+        console.log("dit is een random function!");
     }
 
 }
@@ -82,7 +105,7 @@ function logY(u, h, l)
     console.log(logY);
     return logY;
 }
-
+        
 let u = 9;
 let h = 8;
 let l = 15;
@@ -93,5 +116,10 @@ let logY3 = logY(44, 6, 6);
 
 let app = new App();
 app.runApplication();
+
 app.newClassFunction();
 app.anotherFunctionWithArguments("mijn argument is iets...");
+app.marioFunction();
+let bwa = app.bwahahaFunction();
+let add = app.addTwoNumbers(0,1);
+app.randomFunction();
