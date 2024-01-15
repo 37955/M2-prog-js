@@ -36,11 +36,15 @@ class App {
         }
 
         //
-        var nummers = [2, 5, 7];
+        let headersByCssClass = document.getElementsByClassName("Game");
 
-        for (var i = 0; i < nummers.length; i++) {
-            nummers[i] += 1;
-            console.log(nummers[i]);
+        for (var i = 0; i < headersByCssClass.length; i++) {
+            headersByCssClass[0].innerText = "nieuws";
+            headersByCssClass[1].innerText = "reviews";
+            headersByCssClass[2].innerText = "commentaar";
+            headersByCssClass[3].innerText = "beste forum posts"; 
+            headersByCssClass[4].innerText = "pricewatch";     
+            console.log(headersByCssClass[i].innerText);
         }
     }
 }
