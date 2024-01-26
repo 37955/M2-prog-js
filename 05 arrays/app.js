@@ -46,6 +46,8 @@ class App {
             headersByCssClass[4].innerText = "pricewatch";     
             console.log(headersByCssClass[i].innerText);
         }
+
+        var data
     }
 }
 
